@@ -1,0 +1,29 @@
+#banner {
+  background-image: url("../images/banner-image.png");
+  height: 600px;
+  margin-top: 50px;
+  border-radius: 15px;
+}
+.banner-text h3 {
+  color: #fff;
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 32px;
+  font-weight: 400;
+}
+.banner-text h1 {
+  color: #fff;
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 72px;
+  font-weight: 900;
+}
+.banner-text {
+  width: 632px;
+  margin: 0 auto;
+  padding-top: 120px;
+}
+.banner-area {
+  max-width: 1320px;
+  margin: 0 auto;
+}
