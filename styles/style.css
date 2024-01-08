@@ -116,6 +116,8 @@
   height: 464.662px;
   padding: 0.008px 0px 0px 0px;
 }
+/* section-3  */
+/* information & join  */
 #location {
   background: linear-gradient(
     180deg,
@@ -154,10 +156,76 @@
   line-height: normal;
   text-transform: uppercase;
 }
-.btn{
+.btn {
   border-radius: 8px;
   background: #f00;
   border: none;
   height: 100px;
   width: 300px;
+}
+/* section-4  */
+/* celibration  */
+#poster {
+  margin-top: 120px;
+  padding-top: 20px;
+}
+.poser-greating {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+}
+.frist-area {
+  width: 400px;
+}
+.frist-area h2 {
+  color: #f00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding: 15px;
+}
+.frist-area h1 {
+  color: #070211;
+
+  font-family: Merriweather;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  text-transform: capitalize;
+}
+.frist-area p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
+.second-area-img {
+  width: 463px;
+  height: 463px;
+  flex-shrink: 0;
+  border-radius: 463px;
+  border: 15px solid #f00;
+}
+.second-area-img img {
+  padding-top: 50px;
+}
+.third-area-section h1 {
+  color: #f00;
+
+  font-family: Inter;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.third-area-section p {
+  color: rgba(7, 2, 17, 0.60);
+  font-size: 20px;
+  font-weight: 350;
 }
