@@ -20,6 +20,9 @@
   font-size: 72px;
   font-weight: 900;
 }
+.span-1:hover{
+    color: #a15589;
+}
 .banner-text {
   width: 632px;
   margin: 0 auto;
@@ -37,6 +40,19 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
+}
+.offer-text:hover{
+    background: linear-gradient(to bottom, #cc5ccc, #cca5e7c2);
+}
+.offer-text:hover h1{
+  color: #d6b5b5e0;
+}
+.offer-text:hover h6{
+    color: #9e7171;
+}
+.greeting-img:hover{
+    background: linear-gradient(to top, #cc5ccc, #cca5e7c2);
+    border-radius: 20px;
 }
 .greeting-img {
   margin: 10px auto;
@@ -89,6 +105,9 @@
   line-height: 88px;
   letter-spacing: 7.04px;
 }
+.party-text:hover h1{
+    color: #a476eeaf;
+}
 .party-paragraph {
   color: rgba(255, 255, 255, 0.8);
   font-family: Inter;
@@ -104,6 +123,10 @@
   background: none;
   font-weight: 1000;
   text-transform: uppercase;
+}
+.button:hover a {
+    color: #fff;
+
 }
 .button a {
   text-decoration: none;
@@ -161,6 +184,9 @@
   border: none;
   height: 100px;
   width: 300px;
+}
+.btn:hover{
+    background: linear-gradient(to bottom, #cc5ccc, #cca5e7c2);
 }
 /* section-4  */
 /* celibration  */
@@ -263,7 +289,16 @@
   line-height: normal;
   text-transform: capitalize;
 }
-
+.portfolio-image:hover {
+    transform: scale(1.1);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.6);
+    border-radius: 15px;
+  }
+.portfolio-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
 /* final-section  */
 /* subscribe-area  */
 #subscribe-section {
