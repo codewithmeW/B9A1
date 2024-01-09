@@ -66,6 +66,7 @@
   font-style: normal;
   font-weight: 700;
   margin-bottom: 0;
+  text-shadow: 2px 2px 4px black;
 }
 .offer-1 {
   color: #f00;
@@ -236,6 +237,9 @@
   border-radius: 463px;
   border: 15px solid #f00;
 }
+.second-area-img:hover{
+  border: 15px solid rgb(176, 105, 204);
+}
 .second-area-img img {
   padding-top: 50px;
 }
@@ -390,4 +394,7 @@ footer {
   display: flex;
   justify-content: center;
   gap: 25px;
+}
+.footer-mid a:hover{
+  transform: scale(1.2);
 }
